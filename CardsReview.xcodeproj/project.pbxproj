@@ -15,6 +15,9 @@
 		C78BF4A62625C2CA006CF17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78BF4A42625C2CA006CF17F /* LaunchScreen.storyboard */; };
 		C78BF4B12625C2CA006CF17F /* CardsReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78BF4B02625C2CA006CF17F /* CardsReviewTests.swift */; };
 		C78BF4BC2625C2CA006CF17F /* CardsReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78BF4BB2625C2CA006CF17F /* CardsReviewUITests.swift */; };
+		C78BF4CD2625C2FC006CF17F /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78BF4CC2625C2FC006CF17F /* Cards.swift */; };
+		C78BF4D22625C313006CF17F /* CardsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78BF4D12625C313006CF17F /* CardsTableView.swift */; };
+		C78BF4D72625C327006CF17F /* PNG in Resources */ = {isa = PBXBuildFile; fileRef = C78BF4D62625C326006CF17F /* PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C78BF4B72625C2CA006CF17F /* CardsReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78BF4BB2625C2CA006CF17F /* CardsReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsReviewUITests.swift; sourceTree = "<group>"; };
 		C78BF4BD2625C2CA006CF17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78BF4CC2625C2FC006CF17F /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		C78BF4D12625C313006CF17F /* CardsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTableView.swift; sourceTree = "<group>"; };
+		C78BF4D62625C326006CF17F /* PNG */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		C78BF48D2625C2C6006CF17F = {
 			isa = PBXGroup;
 			children = (
+				C78BF4D12625C313006CF17F /* CardsTableView.swift */,
+				C78BF4D62625C326006CF17F /* PNG */,
 				C78BF4982625C2C6006CF17F /* CardsReview */,
 				C78BF4AF2625C2CA006CF17F /* CardsReviewTests */,
 				C78BF4BA2625C2CA006CF17F /* CardsReviewUITests */,
@@ -101,6 +109,7 @@
 			children = (
 				C78BF4992625C2C6006CF17F /* AppDelegate.swift */,
 				C78BF49B2625C2C6006CF17F /* SceneDelegate.swift */,
+				C78BF4CC2625C2FC006CF17F /* Cards.swift */,
 				C78BF49D2625C2C6006CF17F /* ViewController.swift */,
 				C78BF49F2625C2C6006CF17F /* Main.storyboard */,
 				C78BF4A22625C2CA006CF17F /* Assets.xcassets */,
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78BF4D72625C327006CF17F /* PNG in Resources */,
 				C78BF4A62625C2CA006CF17F /* LaunchScreen.storyboard in Resources */,
 				C78BF4A32625C2CA006CF17F /* Assets.xcassets in Resources */,
 				C78BF4A12625C2C6006CF17F /* Main.storyboard in Resources */,
@@ -261,6 +271,8 @@
 				C78BF49E2625C2C6006CF17F /* ViewController.swift in Sources */,
 				C78BF49A2625C2C6006CF17F /* AppDelegate.swift in Sources */,
 				C78BF49C2625C2C6006CF17F /* SceneDelegate.swift in Sources */,
+				C78BF4D22625C313006CF17F /* CardsTableView.swift in Sources */,
+				C78BF4CD2625C2FC006CF17F /* Cards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
